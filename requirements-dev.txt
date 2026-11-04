@@ -1,0 +1,2 @@
+-r requirements.txt
+sanic-testing>=24.6,<26

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "视频分发",
+    "kind": "multicast",
+    "source": "10.0.0.1",
+    "receivers": [
+      "10.0.0.4",
+      "10.0.0.5",
+      "10.0.0.6"
+    ],
+    "group": "239.1.1.1",
+    "mbps": 20.0,
+    "priority": 10,
+    "bidirectional": false
+  },
+  {
+    "id": "业务 A",
+    "kind": "unicast",
+    "source": "10.0.0.2",
+    "receivers": [
+      "10.0.0.6"
+    ],
+    "mbps": 15.0,
+    "priority": 5,
+    "bidirectional": true
+  }
+]

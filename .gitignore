@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+/data/*
+!/data/demo-demands.json
+.env
+.env.*
+!.env.example
+.vm.env
+api-token
+*.log
+work/
